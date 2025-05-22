@@ -1,0 +1,7 @@
+5. Apakah yang salah dengan statement berikut? Berikan penjelasan.
+    var file = new File(“C:\Data\Java\teks.txt”);
+    Jawab : yang digunakan seharusnya tanda kutip lurus biasa " ", bukan tanda kutip ganda “ ”. Selain itu, backslash \ adalah karakter escape, jadi seharusnya menggunakan \\ atau /
+    Jadi, kode yang benar yaitu : var file = new File("C:\\Data\\Java\\teks.txt");
+
+6. Apa yang akan terjadi jika kita mencoba untuk membaca isi dari suatu file tetapi file tersebut tidak ada dan kita tidak melakukan pengecekan lebih dulu?
+    Jawab : program akan melemparkan exception berupa FileNotFoundException dan jika tidak ditangani dengan blok try-catch maka program akan langsung berhenti dan menampilkan error. 
